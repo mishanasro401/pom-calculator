@@ -498,6 +498,7 @@ export default function PomRevenueCalculator() {
           <p style={{ fontSize: 14, color: C.mutedLight, margin: "0 0 24px" }}>
             We handle staffing, billing, and patient engagement. Zero cost to you.
           </p>
+          <a
          href="mailto:misha@pomhealth.co?subject=Pom Health — Interested in a Walkthrough"
             style={{
               display: "inline-block",
