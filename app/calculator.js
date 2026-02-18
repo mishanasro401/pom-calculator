@@ -499,7 +499,6 @@ export default function PomRevenueCalculator() {
             We handle staffing, billing, and patient engagement. Zero cost to you.
           </p>
           <div
-            onClick={() => window.open("https://calendly.com/misha-pomhealth", "_blank")}
             style={{
               display: "inline-block",
               padding: "12px 28px",
@@ -514,7 +513,7 @@ export default function PomRevenueCalculator() {
               marginBottom: 20,
             }}
           >
-            Schedule a Walkthrough
+            Schedule a Walkthrough →
           </div>
           <p style={{ fontSize: 13, color: C.mutedLight, margin: 0, lineHeight: 2 }}>
             Misha · CEO & Co-Founder
