@@ -498,7 +498,7 @@ export default function PomRevenueCalculator() {
           <p style={{ fontSize: 14, color: C.mutedLight, margin: "0 0 24px" }}>
             We handle staffing, billing, and patient engagement. Zero cost to you.
           </p>
-          <div
+         href="mailto:misha@pomhealth.co?subject=Pom Health — Interested in a Walkthrough"
             style={{
               display: "inline-block",
               padding: "12px 28px",
@@ -511,10 +511,11 @@ export default function PomRevenueCalculator() {
               cursor: "pointer",
               boxShadow: "0 2px 12px rgba(224,72,50,0.35)",
               marginBottom: 20,
+              textDecoration: "none",
             }}
           >
             Schedule a Walkthrough →
-          </div>
+          </a>
           <p style={{ fontSize: 13, color: C.mutedLight, margin: 0, lineHeight: 2 }}>
             Misha · CEO & Co-Founder
             <br />
