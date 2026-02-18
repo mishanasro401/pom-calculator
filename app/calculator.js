@@ -166,7 +166,7 @@ function CodeBreakdown({ code, patients, revenue, ebitda }) {
       <div>
         <div style={{ fontSize: 13, fontWeight: 600, color: C.textDark }}>{code.label}</div>
         <div style={{ fontSize: 11, color: C.muted, marginTop: 2 }}>
-          {code.codes} {"·"} {code.description}
+          {code.codes} · {code.description}
         </div>
       </div>
       <div style={{ textAlign: "right" }}>
@@ -275,7 +275,7 @@ export default function PomRevenueCalculator() {
               lineHeight: 1.6,
             }}
           >
-            {"See how much revenue embedded nutrition care could generate for your practice — at no cost to you."}
+            See how much revenue embedded nutrition care could generate for your practice — at no cost to you.
           </p>
         </div>
 
@@ -475,7 +475,7 @@ export default function PomRevenueCalculator() {
               >
                 <strong style={{ color: C.textDark }}>How it works:</strong> Pom Health bills under MNT, Obesity
                 Counseling, and CCM codes. Your practice collects the full reimbursement and pays Pom a flat $110/hour
-                {"fee. The difference is your margin — with zero staffing or overhead costs."}
+                fee. The difference is your margin — with zero staffing or overhead costs.
               </div>
             </div>
           )}
@@ -498,8 +498,8 @@ export default function PomRevenueCalculator() {
           <p style={{ fontSize: 14, color: C.mutedLight, margin: "0 0 24px" }}>
             We handle staffing, billing, and patient engagement. Zero cost to you.
           </p>
-          <a
-            href="mailto:misha@pomhealth.co?subject=Pom Health Walkthrough"
+          <div
+            onClick={() => window.open("https://calendly.com/misha-pomhealth", "_blank")}
             style={{
               display: "inline-block",
               padding: "12px 28px",
@@ -512,15 +512,14 @@ export default function PomRevenueCalculator() {
               cursor: "pointer",
               boxShadow: "0 2px 12px rgba(224,72,50,0.35)",
               marginBottom: 20,
-              textDecoration: "none",
             }}
           >
-            {"Schedule a Walkthrough →"}
-          </a>
+            Schedule a Walkthrough →
+          </div>
           <p style={{ fontSize: 13, color: C.mutedLight, margin: 0, lineHeight: 2 }}>
-            {"Misha · CEO & Co-Founder"}
+            Misha · CEO & Co-Founder
             <br />
-            <span style={{ color: C.white }}>{"misha@pomhealth.co · 248-496-6886"}</span>
+            <span style={{ color: C.white }}>misha@pomhealth.co · 248-496-6886</span>
           </p>
         </div>
 
